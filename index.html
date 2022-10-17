@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+          rel="stylesheet">
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+
+</head>
+<body>
+<div class="bg-stats_blue-200   h-screen  flex items-center justify-center">
+    <article class="bg-stats_blue-100 mx-6 my-[88px] lg:min-h-[446px] lg:min-w-[1110px] flex flex-col  rounded-lg l lg:mx-[165px] lg:my-[177px]  lg:relative  ">
+        <picture class="bg-stats_violet   lg:absolute lg:right-0 lg:h-full lg:w-[540px] " >
+            <source media="(min-width:1024px)" srcset="./images/image-header-desktop.jpg">
+            <source media="(max-width:1023px)" srcset="./images/image-header-mobile.jpg">
+            <img class=" mix-blend-multiply opacity-75  rounded-lg  lg:w-full  lg:h-full  "
+                 alt="stats"/>
+        </picture>
+        <div class="flex flex-col justify-center items-center  my-3 mx-[31px] lg:ml-[72px] lg:mt-[71px] lg:w-[403px] " >
+            <div class="lg:text-left stats-heading text-white my-3  ">Get <span class="text-stats_violet">insights</span> that help your
+                business grow.
+
+            </div>
+            <div class="lg:text-left  stats-content text-white  my-3">Discover the benefits of data analytics and make better decisions regarding revenue, customer
+                experience, and overall efficiency.
+            </div>
+            <div class=" lg:text-left flex flex-col lg:flex-row items-center justify-between lg:w-full  my-3 lg:my-[72px] ">
+                <div class="text-white text-center lg:text-left my-3 ">
+                    <div class="stats-numbers">10k+</div>
+                    <div class="stats-category">Companies</div>
+                </div>
+                <div class="text-white text-center lg:text-left my-3 ">
+                    <div class="stats-numbers">314</div>
+                    <div class="stats-category">Templates</div>
+                </div>
+                <div class="text-white text-center sm:text-lef my-3 ">
+                    <div class="stats-numbers">12M+</div>
+                    <div class="stats-category">Queries</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </article>
+</div>
+</body>
+</html>
